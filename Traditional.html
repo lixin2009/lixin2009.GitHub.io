@@ -8,18 +8,22 @@
   <link rel="shortcut icon" href="https://img1.imgtp.com/2023/08/23/j8k55EIJ.ico"/>
   <link rel="bookmark" href="https://img1.imgtp.com/2023/08/23/j8k55EIJ.ico"/>
   <link href="css/color.css" rel="stylesheet">
+  <link href="css/color.css" rel="stylesheet" id="dark-mode">
   <style>
     .center1 {
       text-align: center;
       margin: auto;
       display: block;
     }
-  </style>
-  <style>
-    .lang-select {
+    .lang-select-R {
       position: absolute;
       top: 10px;
       right: 10px;
+    }
+    .lang-select-L {
+    position: absolute;
+      top: 10px;
+      left: 10px;
     }
   </style>
 </head>
@@ -34,7 +38,7 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="https://img1.imgtp.com/2023/08/20/gZAr8o87.png" alt="欢迎">
+              <img class="d-block w-100" src="https://img1.imgtp.com/2023/08/25/21JxmsiH.png" alt="欢迎">
             </div>
           </div>
         </div>
@@ -42,13 +46,18 @@
     </div>
   </div>
   
-  <div class="lang-select">
-    <label for="lang-select">語言:</label>
-    <select id="lang-select">
+  <div class="lang-select-R">
+    <label for="lang-select-R">語言:</label>
+    <select id="lang-select-R">
       <option>繁體中文</option>
       <option>简体中文</option>
       <option>English</option>
     </select>
+  </div>
+
+  <div class="lang-select-L">
+    <label for="toggle-mode">暗黑模式:</label>
+    <input type="checkbox" id="toggle-mode">
   </div>
 
   <hr>
@@ -60,7 +69,7 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <iframe src="//player.bilibili.com/player.html?aid=317606625&bvid=BV1RP411p7Pm&cid=1243451032&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+          <iframe src="https://player.bilibili.com/player.html?aid=317606625&bvid=BV1RP411p7Pm&cid=1243451032&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
           <div class="card-body">
             <h5 class="card-title">【洛天依&樂正綾&言和】我不曾忘記【V3&V4翻調】</h5>
             <a href="https://www.bilibili.com/video/BV1RP411p7Pm/?share_source=copy_web" class="btn btn-primary">去看看</a>
@@ -70,7 +79,7 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <iframe src="//player.bilibili.com/player.html?aid=228957246&bvid=BV1Uh411F7b7&cid=1137095226&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+          <iframe src="https://player.bilibili.com/player.html?aid=228957246&bvid=BV1Uh411F7b7&cid=1137095226&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
           <div class="card-body">
             <h5 class="card-title">【洛天依AI】煙Distance</h5>
             <a href="https://www.bilibili.com/video/BV1Uh411F7b7/?share_source=copy_web" class="btn btn-primary">去看看</a>
@@ -80,7 +89,7 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <iframe src="//player.bilibili.com/player.html?aid=570917400&bvid=BV1Bz4y1a7yf&cid=1124153351&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+          <iframe src="https://player.bilibili.com/player.html?aid=570917400&bvid=BV1Bz4y1a7yf&cid=1124153351&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
           <div class="card-body">
             <h5 class="card-title">【洛天依AI、樂正綾AI】千里之外</h5>
             <a href="https://www.bilibili.com/video/BV1Bz4y1a7yf/?share_source=copy_web" class="btn btn-primary">去看看</a>
@@ -90,7 +99,7 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <iframe src="//player.bilibili.com/player.html?aid=950062947&bvid=BV15s4y1j7dq&cid=1025164613&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+          <iframe src="https://player.bilibili.com/player.html?aid=950062947&bvid=BV15s4y1j7dq&cid=1025164613&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
           <div class="card-body">
             <h5 class="card-title">【翻調】朝汐【洛天依、樂正綾】</h5>
             <a href="https://www.bilibili.com/video/BV15s4y1j7dq/?share_source=copy_web" class="btn btn-primary">去看看</a>
@@ -100,7 +109,7 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <iframe src="//player.bilibili.com/player.html?aid=518215658&bvid=BV1Lg411W7AU&cid=906948822&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+          <iframe src="https://player.bilibili.com/player.html?aid=518215658&bvid=BV1Lg411W7AU&cid=906948822&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
           <div class="card-body">
             <h5 class="card-title">生不逢時的系統：Windows longhorn build 4074</h5>
             <a href="https://www.bilibili.com/video/BV1Lg411W7AU/?share_source=copy_web" class="btn btn-primary">去看看</a>
@@ -120,10 +129,9 @@
     <div class="row text-center">
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <img class="card-img-top img-thumbnail" src="https://img1.imgtp.com/2023/08/20/bvRNyEMK.png" alt="bilibili">
           <div class="card-body">
             <h5 class="card-title">Bilibili</h5>
-            <p class="card-text">用于发布视频。</p>
+            <h6 class="card-text">用于发布视频。</h6>
             <a href="https://space.bilibili.com/1539105583/" class="btn btn-primary">訪問個人主頁</a>
           </div>
         </div>
@@ -131,10 +139,9 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <img class="card-img-top img-thumbnail" src="https://img1.imgtp.com/2023/08/20/8zUjjt2i.png" alt="Github">
           <div class="card-body">
             <h5 class="card-title">Github</h5>
-            <p class="card-text">仅用于发布网页</p>
+            <h6 class="card-text">仅用于发布网页</h6>
             <a href="https://github.com/lixin2009?tab=repositories" class="btn btn-primary">訪問個人主頁</a>
           </div>
         </div>
@@ -142,10 +149,9 @@
 
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <img class="card-img-top img-thumbnail" src="https://img1.imgtp.com/2023/08/20/WNdFzjZF.png" alt="网易云音乐">
           <div class="card-body">
             <h5 class="card-title">網易雲音樂</h5>
-            <p class="card-text">用于发布音频，目前暂未发布。</p>
+            <h6 class="card-text">用于发布音频，目前暂未发布。</h6>
             <a href="https://music.163.com/#/user/home?id=6417833782" class="btn btn-primary">訪問個人主頁</a>
           </div>
         </div>
@@ -170,13 +176,24 @@
   <hr>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var langSelect = document.getElementById("lang-select");
+      var langSelect = document.getElementById("lang-select-R");
       langSelect.addEventListener('change', function() {
         if (langSelect.value === '简体中文') {
           window.location.href = '/index.html';
         }
         if (langSelect.value === 'English') {
           window.location.href = '/English.html';
+        }
+      });
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggleMode = document.getElementById('toggle-mode');
+      toggleMode.addEventListener('change', function() {
+      var darkMode = document.getElementById('dark-mode');
+        if (toggleMode.checked) {
+          darkMode.href = 'css/dark.css';
+        } else {
+          darkMode.href = 'css/color.css';
         }
       });
     });
